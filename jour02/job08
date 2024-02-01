@@ -86,9 +86,9 @@ class Directeur:
 directeur = Directeur("localhost", "root", "root", "zoo")
 
 # Créer une cage
-directeur.create_cage(7, 100, 10)
-directeur.create_cage(8, 200, 20)
-directeur.create_cage(9, 300, 30)
+directeur.create_cage(16, 100, 10)
+directeur.create_cage(17, 200, 20)
+directeur.create_cage(18, 300, 30)
 
 # Lire les cages
 directeur.read_cage()
